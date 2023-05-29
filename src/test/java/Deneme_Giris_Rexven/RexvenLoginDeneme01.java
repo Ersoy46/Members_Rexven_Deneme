@@ -20,11 +20,11 @@ public class RexvenLoginDeneme01 {
         Thread.sleep(2000);
 
         WebElement emailbutton=driver.findElement(By.xpath("//input[@id='email']"));
-        emailbutton.sendKeys("tugrul121463@gmail.com");
+        emailbutton.sendKeys("rexvendeneme@gmail.com");
         Thread.sleep(2000);
 
         WebElement passwordbutton=driver.findElement(By.xpath("//input[@id='password']"));
-        passwordbutton.sendKeys("Ersoy210417");
+        passwordbutton.sendKeys("rexven30194");
         Thread.sleep(2000);
 
         driver.findElement(By.xpath("//button[@type='submit']")).click();
